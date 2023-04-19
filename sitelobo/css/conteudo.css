@@ -1,0 +1,20 @@
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80vw;
+    margin: auto;
+
+}
+
+.tit-sec{
+    text-align: center;
+    font-size: 25px;
+    font-family: Trebuchet MS;
+    padding: 30px 0px;
+}
+
+.conteudo > div{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;
+}

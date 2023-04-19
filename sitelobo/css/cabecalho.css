@@ -1,0 +1,48 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #bebeb6;
+}
+
+.cabecalho img{
+    width: 100px;
+    max-width: 100px;
+    display: block;
+
+}
+
+html{
+    font-size: 62%;
+}
+
+.cabecalho nav{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    color: #000;
+    font-size: 4rem;
+    font-family: Trebuchet MS;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.cabecalho a:hover{
+    color: #eee4ee;
+}
+
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80vw;
+    margin: auto;
+}
